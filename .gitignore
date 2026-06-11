@@ -1,0 +1,26 @@
+# Maven
+target/
+!.mvn/wrapper/
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit
+application-local.yml
+*.env
+*.key
+*.pem
+
+# Logs
+*.log
